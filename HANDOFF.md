@@ -43,9 +43,9 @@ BASE_URL = https://detail-fondly-chosen.ngrok-free.dev
 | spacexai:grok-4.5\|high | 8 | 4 |
 | spacexai:grok-4.6\|high | 7 | 5 |
 | spacexai:grok-4.7\|high | 3 | 9（且探针覆盖不足） |
-| spacexai:grok-build-0.1\|auto | 9 | 3 |
-| google:gemini-3.5-flash-lite\|auto | 1 | 11（且探针覆盖不足） |
-| google:gemini-4-carbon\|auto | 2 | 10（且探针覆盖不足） |
+| spacexai:grok-build-0.1\|high | 9 | 3 |
+| google:gemini-3.5-flash-lite\|high | 1 | 11（且探针覆盖不足） |
+| google:gemini-4-carbon\|high | 2 | 10（且探针覆盖不足） |
 
 ## 采集注意事项
 
@@ -56,7 +56,7 @@ BASE_URL = https://detail-fondly-chosen.ngrok-free.dev
 3. **每个标签至少覆盖 3 个不同探针。** 7 个探针 (T3D-01~07) 轮换使用。
 4. **收集完整 HTML 文档。** 不是片段，不是摘要。必须是 `<!DOCTYPE html><html>...</html>` 完整结构。
 5. **确认模型身份。** 必须确认实际生成代码的模型与标签一致（看平台显示的模型名/配置）。
-6. **effort 档位对应标签后缀。** `|high` 表示 thinking/reasoning effort = high；`|auto` 表示默认/自动。
+6. **effort 档位对应标签后缀。** `|high` 表示 thinking/reasoning effort = high；`|high` 表示默认/自动。
 
 ### 质量要求
 
