@@ -112,15 +112,14 @@ curl http://HOST:8900/api/samples/stats
 
 ## 采集方法
 
-通过 v0.app 匿名会话采集（每 IP 每轮 3 次配额）：
-1. 访问 v0.app 获取 anon-id cookie
-2. 选择目标模型
-3. 发送探针提示词
-4. 等待生成完成
-5. 提取 HTML 代码（SSE 流 / DOM / artifact iframe）
-6. POST 到本 API 入库
+通过 v0.app 匿名会话（或其他能调用目标模型的平台）采集：
+1. 选择目标模型
+2. 发送探针提示词（GET /api/probes）
+3. 等待生成完成
+4. 提取完整 HTML 代码产物
+5. POST /api/samples 入库
 
-**注意:** v0 当前检测 CDP 自动化。需使用反检测浏览器（如 BitBrowser）或 OS 级输入。
+**详细注意事项见 [HANDOFF.md](./HANDOFF.md)**
 
 ## 指纹训练
 
@@ -164,9 +163,9 @@ nohup ngrok http --domain=your-name.ngrok-free.app 8900 > /tmp/ngrok.log 2>&1 &
 
 固定后 API 地址: `https://your-name.ngrok-free.app`
 
-### 当前临时公网地址
+### 当前公网地址
 
-`https://loan-exports-giants-salt.trycloudflare.com`（重启会变）
+`https://detail-fondly-chosen.ngrok-free.dev`（ngrok 隧道，进程存活期间固定）
 
 ## 项目结构
 
