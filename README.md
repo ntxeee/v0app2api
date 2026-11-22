@@ -2,6 +2,20 @@
 
 通过 v0.app 匿名采集各 AI 模型生成的 Three.js 代码，建立指纹样本库，用于训练模型识别器。
 
+## 🌐 在线 API（可直接调用）
+
+```
+https://detail-fondly-chosen.ngrok-free.dev
+```
+
+- 展示页: https://detail-fondly-chosen.ngrok-free.dev/
+- Swagger: https://detail-fondly-chosen.ngrok-free.dev/docs
+- 导入样本: `POST /api/samples`
+- 导出训练: `GET /api/samples/export/jsonl`
+- 覆盖统计: `GET /api/samples/stats`
+
+**接力采集请先读 [HANDOFF.md](./HANDOFF.md)**
+
 ## 快速开始
 
 ```bash
