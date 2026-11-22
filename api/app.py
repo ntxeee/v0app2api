@@ -12,6 +12,9 @@ app = FastAPI(title="v0app2api", version="1.0.0",
               description="Three.js model fingerprint sample management. Import/export samples, query probes & models.")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
+from .gallery import router as gallery_router
+app.include_router(gallery_router)
+
 DATA_DIR = Path(os.environ.get("V0APP2API_DATA", Path(__file__).parent.parent / "data"))
 SAMPLES_FILE = DATA_DIR / "samples.jsonl"
 PROBES_FILE = DATA_DIR / "probes.json"

@@ -124,6 +124,36 @@ bash deploy.sh
 # 服务运行在 :8900
 ```
 
+### 公网访问（ngrok 固定域名）
+
+trycloudflare 免费隧道每次重启 URL 会变。用 ngrok 固定：
+
+```bash
+# 1. 注册 ngrok: https://dashboard.ngrok.com/signup
+# 2. 安装
+curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc | tee /etc/apt/trusted.gpg.d/ngrok.asc
+echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | tee /etc/apt/sources.list.d/ngrok.list
+apt update && apt install ngrok
+
+# 3. 绑定 authtoken（dashboard 里拿）
+ngrok config add-authtoken YOUR_TOKEN
+
+# 4. 申请固定域名（dashboard → Domains → 免费 1 个）
+# 假设拿到: your-name.ngrok-free.app
+
+# 5. 启动固定隧道
+ngrok http --domain=your-name.ngrok-free.app 8900
+
+# 6. 后台运行
+nohup ngrok http --domain=your-name.ngrok-free.app 8900 > /tmp/ngrok.log 2>&1 &
+```
+
+固定后 API 地址: `https://your-name.ngrok-free.app`
+
+### 当前临时公网地址
+
+`https://loan-exports-giants-salt.trycloudflare.com`（重启会变）
+
 ## 项目结构
 
 ```
