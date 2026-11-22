@@ -1,274 +1,1834 @@
 {
  "models": [
   {
+   "provider": "alibaba",
+   "modelId": "qwen3-coder-30b-a3b",
+   "apiModel": "alibaba/qwen3-coder-30b-a3b",
+   "name": "Qwen 3 Coder 30B A3B Instruct",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "alibaba",
+   "modelId": "qwen3-coder-next",
+   "apiModel": "alibaba/qwen3-coder-next",
+   "name": "Qwen3 Coder Next",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "alibaba",
+   "modelId": "qwen3.8-2.4t-a95b",
+   "apiModel": "alibaba/qwen3.8-2.4t-a95b",
+   "name": "Qwen3.8 2.4T A95B",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "alibaba",
+   "modelId": "qwen3.8-max",
+   "apiModel": "alibaba/qwen3.8-max",
+   "name": "Qwen 3.8 Max",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "availableToAdd": true
+  },
+  {
    "provider": "anthropic",
    "modelId": "claude-fable-5",
    "apiModel": "anthropic/claude-fable-5",
-   "expectedEffectiveModel": "Claude Fable 5"
+   "name": "Claude Fable 5",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
   },
   {
    "provider": "anthropic",
    "modelId": "claude-fable-5.1",
    "apiModel": "anthropic/claude-fable-5.1",
-   "expectedEffectiveModel": "Claude Fable 5.1"
+   "name": "Claude Fable 5.1",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
   },
   {
    "provider": "anthropic",
    "modelId": "claude-fable-5.2",
    "apiModel": "anthropic/claude-fable-5.2",
-   "expectedEffectiveModel": "Claude Fable 5.2"
-  },
-  {
-   "provider": "anthropic",
-   "modelId": "claude-haiku-5.5",
-   "apiModel": "anthropic/claude-haiku-5.5",
-   "expectedEffectiveModel": "Claude Haiku 5.5"
-  },
-  {
-   "provider": "anthropic",
-   "modelId": "claude-opus-4.8",
-   "apiModel": "anthropic/claude-opus-4.8",
-   "expectedEffectiveModel": "Claude Opus 4.8"
-  },
-  {
-   "provider": "anthropic",
-   "modelId": "claude-opus-5",
-   "apiModel": "anthropic/claude-opus-5",
-   "expectedEffectiveModel": "Claude Opus 5"
-  },
-  {
-   "provider": "anthropic",
-   "modelId": "claude-opus-5.5",
-   "apiModel": "anthropic/claude-opus-5.5",
-   "expectedEffectiveModel": "Claude Opus 5.5"
-  },
-  {
-   "provider": "anthropic",
-   "modelId": "claude-sonnet-5",
-   "apiModel": "anthropic/claude-sonnet-5",
-   "expectedEffectiveModel": "Claude Sonnet 5"
-  },
-  {
-   "provider": "anthropic",
-   "modelId": "claude-sonnet-5.5",
-   "apiModel": "anthropic/claude-sonnet-5.5",
-   "expectedEffectiveModel": "Claude Sonnet 5.5"
-  },
-  {
-   "provider": "google",
-   "modelId": "gemini-3.5-flash",
-   "apiModel": "google/gemini-3.5-flash",
-   "expectedEffectiveModel": "Gemini 3.5 Flash"
-  },
-  {
-   "provider": "google",
-   "modelId": "gemini-3.5-flash-lite",
-   "apiModel": "google/gemini-3.5-flash-lite",
-   "expectedEffectiveModel": "Gemini 3.5 Flash Lite"
-  },
-  {
-   "provider": "google",
-   "modelId": "gemini-3.6-flash",
-   "apiModel": "google/gemini-3.6-flash",
-   "expectedEffectiveModel": "Gemini 3.6 Flash"
-  },
-  {
-   "provider": "google",
-   "modelId": "gemini-3.7-flash",
-   "apiModel": "google/gemini-3.7-flash",
-   "expectedEffectiveModel": "Gemini 3.7 Flash"
-  },
-  {
-   "provider": "google",
-   "modelId": "gemini-3.8-flash",
-   "apiModel": "google/gemini-3.8-flash",
-   "expectedEffectiveModel": "Gemini 3.8 Flash"
-  },
-  {
-   "provider": "google",
-   "modelId": "gemini-4-argon",
-   "apiModel": "google/gemini-4-argon",
-   "expectedEffectiveModel": "Gemini 4 Argon"
-  },
-  {
-   "provider": "google",
-   "modelId": "gemini-4-carbon",
-   "apiModel": "google/gemini-4-carbon",
-   "expectedEffectiveModel": "Gemini 4 Carbon"
-  },
-  {
-   "provider": "google",
-   "modelId": "gemini-4-hydrogen",
-   "apiModel": "google/gemini-4-hydrogen",
-   "expectedEffectiveModel": "Gemini 4 Hydrogen"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-5.6-luna",
-   "apiModel": "openai/gpt-5.6-luna",
-   "expectedEffectiveModel": "GPT-5.6 Luna"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-5.6-sol",
-   "apiModel": "openai/gpt-5.6-sol",
-   "expectedEffectiveModel": "GPT-5.6 Sol"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-5.6-terra",
-   "apiModel": "openai/gpt-5.6-terra",
-   "expectedEffectiveModel": "GPT-5.6 Terra"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6-astra",
-   "apiModel": "openai/gpt-6-astra",
-   "expectedEffectiveModel": "GPT-6 Astra"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6-luna",
-   "apiModel": "openai/gpt-6-luna",
-   "expectedEffectiveModel": "GPT-6 Luna"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6-sol",
-   "apiModel": "openai/gpt-6-sol",
-   "expectedEffectiveModel": "GPT-6 Sol"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6.1-sol",
-   "apiModel": "openai/gpt-6.1-sol",
-   "expectedEffectiveModel": "GPT-6.1 Sol"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6.1-terra",
-   "apiModel": "openai/gpt-6.1-terra",
-   "expectedEffectiveModel": "GPT-6.1 Terra"
-  },
-  {
-   "provider": "spacexai",
-   "modelId": "grok-4.5",
-   "apiModel": "spacexai/grok-4.5",
-   "expectedEffectiveModel": "Grok 4.5"
-  },
-  {
-   "provider": "spacexai",
-   "modelId": "grok-4.7",
-   "apiModel": "spacexai/grok-4.7",
-   "expectedEffectiveModel": "Grok 4.7"
-  },
-  {
-   "provider": "meta",
-   "modelId": "llama-4-maverick",
-   "apiModel": "meta/llama-4-maverick",
-   "expectedEffectiveModel": "Llama 4 Maverick"
-  },
-  {
-   "provider": "meta",
-   "modelId": "llama-4-scout",
-   "apiModel": "meta/llama-4-scout",
-   "expectedEffectiveModel": "Llama 4 Scout"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6.2-astra",
-   "apiModel": "openai/gpt-6.2-astra",
-   "expectedEffectiveModel": "GPT-6.2 Astra"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6.2-astra-fast",
-   "apiModel": "openai/gpt-6.2-astra-fast",
-   "expectedEffectiveModel": "GPT-6.2 Astra (Fast)"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6.2-sol",
-   "apiModel": "openai/gpt-6.2-sol",
-   "expectedEffectiveModel": "GPT-6.2 Sol"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6.2-sol-fast",
-   "apiModel": "openai/gpt-6.2-sol-fast",
-   "expectedEffectiveModel": "GPT-6.2 Sol (Fast)"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6.1-sol-fast",
-   "apiModel": "openai/gpt-6.1-sol-fast",
-   "expectedEffectiveModel": "GPT-6.1 Sol (Fast)"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6.1-terra-fast",
-   "apiModel": "openai/gpt-6.1-terra-fast",
-   "expectedEffectiveModel": "GPT-6.1 Terra (Fast)"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6-sol-fast",
-   "apiModel": "openai/gpt-6-sol-fast",
-   "expectedEffectiveModel": "GPT-6 Sol (Fast)"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-6-luna-fast",
-   "apiModel": "openai/gpt-6-luna-fast",
-   "expectedEffectiveModel": "GPT-6 Luna (Fast)"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-5.6-luna-fast",
-   "apiModel": "openai/gpt-5.6-luna-fast",
-   "expectedEffectiveModel": "GPT-5.6 Luna (Fast)"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-5.6-sol-fast",
-   "apiModel": "openai/gpt-5.6-sol-fast",
-   "expectedEffectiveModel": "GPT-5.6 Sol (Fast)"
-  },
-  {
-   "provider": "openai",
-   "modelId": "gpt-5.6-terra-fast",
-   "apiModel": "openai/gpt-5.6-terra-fast",
-   "expectedEffectiveModel": "GPT-5.6 Terra (Fast)"
-  },
-  {
-   "provider": "anthropic",
-   "modelId": "claude-opus-5-fast",
-   "apiModel": "anthropic/claude-opus-5-fast",
-   "expectedEffectiveModel": "Claude Opus 5 (Fast)"
-  },
-  {
-   "provider": "anthropic",
-   "modelId": "claude-opus-5.5-fast",
-   "apiModel": "anthropic/claude-opus-5.5-fast",
-   "expectedEffectiveModel": "Claude Opus 5.5 (Fast)"
+   "name": "Claude Fable 5.2",
+   "supportsFast": true,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
   },
   {
    "provider": "anthropic",
    "modelId": "claude-fable-5.2-fast",
    "apiModel": "anthropic/claude-fable-5.2-fast",
-   "expectedEffectiveModel": "Claude Fable 5.2 (Fast)"
+   "name": "Claude Fable 5.2 (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-haiku-4.5",
+   "apiModel": "anthropic/claude-haiku-4.5",
+   "name": "Claude Haiku 4.5",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-haiku-5.5",
+   "apiModel": "anthropic/claude-haiku-5.5",
+   "name": "Claude Haiku 5.5",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-opus-4.5",
+   "apiModel": "anthropic/claude-opus-4.5",
+   "name": "Claude Opus 4.5",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-opus-4.6",
+   "apiModel": "anthropic/claude-opus-4.6",
+   "name": "Claude Opus 4.6",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-opus-4.7",
+   "apiModel": "anthropic/claude-opus-4.7",
+   "name": "Claude Opus 4.7",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-opus-4.8",
+   "apiModel": "anthropic/claude-opus-4.8",
+   "name": "Claude Opus 4.8",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-opus-4.8-fast",
+   "apiModel": "anthropic/claude-opus-4.8-fast",
+   "name": "Claude Opus 4.8 (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-opus-5",
+   "apiModel": "anthropic/claude-opus-5",
+   "name": "Claude Opus 5",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-opus-5-fast",
+   "apiModel": "anthropic/claude-opus-5-fast",
+   "name": "Claude Opus 5 (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-opus-5.5",
+   "apiModel": "anthropic/claude-opus-5.5",
+   "name": "Claude Opus 5.5",
+   "supportsFast": true,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-opus-5.5-fast",
+   "apiModel": "anthropic/claude-opus-5.5-fast",
+   "name": "Claude Opus 5.5 (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-sonnet-4.5",
+   "apiModel": "anthropic/claude-sonnet-4.5",
+   "name": "Claude Sonnet 4.5",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-sonnet-4.6",
+   "apiModel": "anthropic/claude-sonnet-4.6",
+   "name": "Claude Sonnet 4.6",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-sonnet-5",
+   "apiModel": "anthropic/claude-sonnet-5",
+   "name": "Claude Sonnet 5",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "anthropic",
+   "modelId": "claude-sonnet-5.5",
+   "apiModel": "anthropic/claude-sonnet-5.5",
+   "name": "Claude Sonnet 5.5",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-r1",
+   "apiModel": "deepseek/deepseek-r1",
+   "name": "DeepSeek-R1",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v3.2",
+   "apiModel": "deepseek/deepseek-v3.2",
+   "name": "DeepSeek V3.2",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v3.2-thinking",
+   "apiModel": "deepseek/deepseek-v3.2-thinking",
+   "name": "DeepSeek V3.2 Thinking",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4-flash",
+   "apiModel": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek V4 Flash",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4-flash-0731",
+   "apiModel": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek V4 Flash 0731",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4-pro",
+   "apiModel": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek V4 Pro",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4-pro-0813",
+   "apiModel": "deepseek/deepseek-v4-pro-0813",
+   "name": "DeepSeek V4 Pro 0813",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4.1-flash",
+   "apiModel": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek V4.1 Flash",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4.1-flash-1017",
+   "apiModel": "deepseek/deepseek-v4.1-flash-1017",
+   "name": "DeepSeek V4.1 Flash 1017",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4.1-flash-1017-fast",
+   "apiModel": "deepseek/deepseek-v4.1-flash-1017-fast",
+   "name": "DeepSeek V4.1 Flash 1017 Fast",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4.1-flash-1017-ultrafast",
+   "apiModel": "deepseek/deepseek-v4.1-flash-1017-ultrafast",
+   "name": "DeepSeek V4.1 Flash 1017 Ultrafast",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4.1-flash-fast",
+   "apiModel": "deepseek/deepseek-v4.1-flash-fast",
+   "name": "DeepSeek V4.1 Flash Fast",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "fireworks",
+   "modelId": "ember-1",
+   "apiModel": "fireworks/ember-1",
+   "name": "Ember-1",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-2.5-flash",
+   "apiModel": "google/gemini-2.5-flash",
+   "name": "Gemini 2.5 Flash",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-2.5-flash-lite",
+   "apiModel": "google/gemini-2.5-flash-lite",
+   "name": "Gemini 2.5 Flash Lite",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-2.5-pro",
+   "apiModel": "google/gemini-2.5-pro",
+   "name": "Gemini 2.5 Pro",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-3-flash",
+   "apiModel": "google/gemini-3-flash",
+   "name": "Gemini 3 Flash",
+   "supportsFast": false,
+   "effortOptions": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-3.1-flash-lite",
+   "apiModel": "google/gemini-3.1-flash-lite",
+   "name": "Gemini 3.1 Flash Lite",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-3.1-pro-preview",
+   "apiModel": "google/gemini-3.1-pro-preview",
+   "name": "Gemini 3.1 Pro Preview",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-3.5-flash",
+   "apiModel": "google/gemini-3.5-flash",
+   "name": "Gemini 3.5 Flash",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-3.5-flash-lite",
+   "apiModel": "google/gemini-3.5-flash-lite",
+   "name": "Gemini 3.5 Flash Lite",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "high"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-3.7-flash",
+   "apiModel": "google/gemini-3.7-flash",
+   "name": "Gemini 3.7 Flash",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "high"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-3.8-flash",
+   "apiModel": "google/gemini-3.8-flash",
+   "name": "Gemini 3.8 Flash",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "high"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-4-argon",
+   "apiModel": "google/gemini-4-argon",
+   "name": "Gemini 4 Argon",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-4-carbon",
+   "apiModel": "google/gemini-4-carbon",
+   "name": "Gemini 4 Carbon",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-4-hydrogen",
+   "apiModel": "google/gemini-4-hydrogen",
+   "name": "Gemini 4 Hydrogen",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "google",
+   "modelId": "gemini-4-neon",
+   "apiModel": "google/gemini-4-neon",
+   "name": "Gemini 4 Neon",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "meta",
+   "modelId": "llama-3.1-70b",
+   "apiModel": "meta/llama-3.1-70b",
+   "name": "Llama 3.1 70B Instruct",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "meta",
+   "modelId": "llama-3.1-8b",
+   "apiModel": "meta/llama-3.1-8b",
+   "name": "Llama 3.1 8B Instruct",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "meta",
+   "modelId": "llama-3.3-70b",
+   "apiModel": "meta/llama-3.3-70b",
+   "name": "Llama 3.3 70B Instruct",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "meta",
+   "modelId": "llama-4-maverick",
+   "apiModel": "meta/llama-4-maverick",
+   "name": "Llama 4 Maverick 17B Instruct",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "meta",
+   "modelId": "llama-4-scout",
+   "apiModel": "meta/llama-4-scout",
+   "name": "Llama 4 Scout 17B Instruct",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "meta",
+   "modelId": "muse-spark-open",
+   "apiModel": "meta/muse-spark-open",
+   "name": "Muse Spark Open",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "minimax",
+   "modelId": "minimax-m2.1",
+   "apiModel": "minimax/minimax-m2.1",
+   "name": "MiniMax M2.1",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "minimax",
+   "modelId": "minimax-m2.5",
+   "apiModel": "minimax/minimax-m2.5",
+   "name": "MiniMax M2.5",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "minimax",
+   "modelId": "minimax-m3",
+   "apiModel": "minimax/minimax-m3",
+   "name": "MiniMax M3",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": true
+  },
+  {
+   "provider": "minimax",
+   "modelId": "minimax-m3.1-flash",
+   "apiModel": "minimax/minimax-m3.1-flash",
+   "name": "MiniMax-M3.1-Flash",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "moonshotai",
+   "modelId": "kimi-k2.5",
+   "apiModel": "moonshotai/kimi-k2.5",
+   "name": "Kimi K2.5",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "moonshotai",
+   "modelId": "kimi-k3",
+   "apiModel": "moonshotai/kimi-k3",
+   "name": "Kimi K3",
+   "supportsFast": true,
+   "effortOptions": [
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "moonshotai",
+   "modelId": "kimi-k3-fast",
+   "apiModel": "moonshotai/kimi-k3-fast",
+   "name": "Kimi K3 Fast",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "moonshotai",
+   "modelId": "kimi-k3.1-pro",
+   "apiModel": "moonshotai/kimi-k3.1-pro",
+   "name": "Kimi K3.1 Pro",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "moonshotai",
+   "modelId": "kimi-k3.1-pro-highspeed",
+   "apiModel": "moonshotai/kimi-k3.1-pro-highspeed",
+   "name": "Kimi K3.1 Pro Highspeed",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-4.1",
+   "apiModel": "openai/gpt-4.1",
+   "name": "GPT-4.1",
+   "supportsFast": true,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-4.1-fast",
+   "apiModel": "openai/gpt-4.1-fast",
+   "name": "GPT-4.1 (Fast)",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-4.1-mini",
+   "apiModel": "openai/gpt-4.1-mini",
+   "name": "GPT-4.1 mini",
+   "supportsFast": true,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-4.1-mini-fast",
+   "apiModel": "openai/gpt-4.1-mini-fast",
+   "name": "GPT-4.1 mini (Fast)",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-4o",
+   "apiModel": "openai/gpt-4o",
+   "name": "GPT-4o",
+   "supportsFast": true,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-4o-fast",
+   "apiModel": "openai/gpt-4o-fast",
+   "name": "GPT-4o (Fast)",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-4o-mini",
+   "apiModel": "openai/gpt-4o-mini",
+   "name": "GPT-4o mini",
+   "supportsFast": true,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-4o-mini-fast",
+   "apiModel": "openai/gpt-4o-mini-fast",
+   "name": "GPT-4o mini (Fast)",
+   "supportsFast": false,
+   "effortOptions": [],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5",
+   "apiModel": "openai/gpt-5",
+   "name": "GPT-5",
+   "supportsFast": true,
+   "effortOptions": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5-fast",
+   "apiModel": "openai/gpt-5-fast",
+   "name": "GPT-5 (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5-mini",
+   "apiModel": "openai/gpt-5-mini",
+   "name": "GPT-5 mini",
+   "supportsFast": true,
+   "effortOptions": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5-mini-fast",
+   "apiModel": "openai/gpt-5-mini-fast",
+   "name": "GPT-5 mini (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5-nano",
+   "apiModel": "openai/gpt-5-nano",
+   "name": "GPT-5 nano",
+   "supportsFast": false,
+   "effortOptions": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5-pro",
+   "apiModel": "openai/gpt-5-pro",
+   "name": "GPT-5 pro",
+   "supportsFast": false,
+   "effortOptions": [
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.1-thinking",
+   "apiModel": "openai/gpt-5.1-thinking",
+   "name": "GPT 5.1 Thinking",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.1-thinking-fast",
+   "apiModel": "openai/gpt-5.1-thinking-fast",
+   "name": "GPT 5.1 Thinking (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.2",
+   "apiModel": "openai/gpt-5.2",
+   "name": "GPT 5.2",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.2-fast",
+   "apiModel": "openai/gpt-5.2-fast",
+   "name": "GPT 5.2 (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.2-pro",
+   "apiModel": "openai/gpt-5.2-pro",
+   "name": "GPT 5.2 ",
+   "supportsFast": false,
+   "effortOptions": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.3-codex",
+   "apiModel": "openai/gpt-5.3-codex",
+   "name": "GPT 5.3 Codex",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.3-codex-fast",
+   "apiModel": "openai/gpt-5.3-codex-fast",
+   "name": "GPT 5.3 Codex (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.4",
+   "apiModel": "openai/gpt-5.4",
+   "name": "GPT 5.4",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.4-fast",
+   "apiModel": "openai/gpt-5.4-fast",
+   "name": "GPT 5.4 (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.4-mini",
+   "apiModel": "openai/gpt-5.4-mini",
+   "name": "GPT 5.4 Mini",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.4-mini-fast",
+   "apiModel": "openai/gpt-5.4-mini-fast",
+   "name": "GPT 5.4 Mini (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.4-nano",
+   "apiModel": "openai/gpt-5.4-nano",
+   "name": "GPT 5.4 Nano",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.4-pro",
+   "apiModel": "openai/gpt-5.4-pro",
+   "name": "GPT 5.4 Pro",
+   "supportsFast": false,
+   "effortOptions": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.5",
+   "apiModel": "openai/gpt-5.5",
+   "name": "GPT 5.5",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.5-fast",
+   "apiModel": "openai/gpt-5.5-fast",
+   "name": "GPT 5.5 (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.5-pro",
+   "apiModel": "openai/gpt-5.5-pro",
+   "name": "GPT 5.5 Pro",
+   "supportsFast": false,
+   "effortOptions": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.6-luna",
+   "apiModel": "openai/gpt-5.6-luna",
+   "name": "GPT 5.6 Luna",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.6-luna-fast",
+   "apiModel": "openai/gpt-5.6-luna-fast",
+   "name": "GPT 5.6 Luna (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.6-sol",
+   "apiModel": "openai/gpt-5.6-sol",
+   "name": "GPT 5.6 Sol",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.6-sol-fast",
+   "apiModel": "openai/gpt-5.6-sol-fast",
+   "name": "GPT 5.6 Sol (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.6-terra",
+   "apiModel": "openai/gpt-5.6-terra",
+   "name": "GPT 5.6 Terra",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-5.6-terra-fast",
+   "apiModel": "openai/gpt-5.6-terra-fast",
+   "name": "GPT 5.6 Terra (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6-astra",
+   "apiModel": "openai/gpt-6-astra",
+   "name": "GPT-6 Astra",
+   "supportsFast": true,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6-astra-fast",
+   "apiModel": "openai/gpt-6-astra-fast",
+   "name": "GPT-6 Astra (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6-luna",
+   "apiModel": "openai/gpt-6-luna",
+   "name": "GPT-6 Luna",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6-luna-fast",
+   "apiModel": "openai/gpt-6-luna-fast",
+   "name": "GPT-6 Luna (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6-sol",
+   "apiModel": "openai/gpt-6-sol",
+   "name": "GPT-6 Sol",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6-sol-fast",
+   "apiModel": "openai/gpt-6-sol-fast",
+   "name": "GPT-6 Sol (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6.1-sol",
+   "apiModel": "openai/gpt-6.1-sol",
+   "name": "GPT-6.1 Sol",
+   "supportsFast": true,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6.1-sol-fast",
+   "apiModel": "openai/gpt-6.1-sol-fast",
+   "name": "GPT-6.1 Sol (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6.1-terra",
+   "apiModel": "openai/gpt-6.1-terra",
+   "name": "GPT-6.1 Terra",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6.1-terra-fast",
+   "apiModel": "openai/gpt-6.1-terra-fast",
+   "name": "GPT-6.1 Terra (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6.2-astra",
+   "apiModel": "openai/gpt-6.2-astra",
+   "name": "GPT-6.2 Astra",
+   "supportsFast": true,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6.2-astra-fast",
+   "apiModel": "openai/gpt-6.2-astra-fast",
+   "name": "GPT-6.2 Astra (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6.2-sol",
+   "apiModel": "openai/gpt-6.2-sol",
+   "name": "GPT-6.2 Sol",
+   "supportsFast": true,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-6.2-sol-fast",
+   "apiModel": "openai/gpt-6.2-sol-fast",
+   "name": "GPT-6.2 Sol (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-oss-120b",
+   "apiModel": "openai/gpt-oss-120b",
+   "name": "GPT OSS 120B",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-oss-20b",
+   "apiModel": "openai/gpt-oss-20b",
+   "name": "GPT OSS 20B",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-oss-safeguard-120b",
+   "apiModel": "openai/gpt-oss-safeguard-120b",
+   "name": "GPT OSS Safeguard 120B",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "gpt-oss-safeguard-20b",
+   "apiModel": "openai/gpt-oss-safeguard-20b",
+   "name": "GPT OSS Safeguard 20B",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "o3",
+   "apiModel": "openai/o3",
+   "name": "o3",
+   "supportsFast": true,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "o3-fast",
+   "apiModel": "openai/o3-fast",
+   "name": "o3 (Fast)",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "openai",
+   "modelId": "o3-pro",
+   "apiModel": "openai/o3-pro",
+   "name": "o3 Pro",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "paperinstruments",
+   "modelId": "ultramarine-1-flash",
+   "apiModel": "paperinstruments/ultramarine-1-flash",
+   "name": "Ultramarine 1 Flash",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "reflection",
+   "modelId": "beam",
+   "apiModel": "reflection/beam",
+   "name": "Beam 1.0",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "spacexai",
+   "modelId": "grok-4.3",
+   "apiModel": "spacexai/grok-4.3",
+   "name": "Grok 4.3",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "spacexai",
+   "modelId": "grok-4.5",
+   "apiModel": "spacexai/grok-4.5",
+   "name": "Grok 4.5",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": true
   },
   {
    "provider": "spacexai",
    "modelId": "grok-4.6",
    "apiModel": "spacexai/grok-4.6",
-   "expectedEffectiveModel": "Grok 4.6"
+   "name": "Grok 4.6",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": true
   },
   {
    "provider": "spacexai",
-   "modelId": "grok-build-0.1",
-   "apiModel": "spacexai/grok-build-0.1",
-   "expectedEffectiveModel": "Grok Build 0.1"
+   "modelId": "grok-4.7",
+   "apiModel": "spacexai/grok-4.7",
+   "name": "Grok 4.7",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "zai",
+   "modelId": "glm-4.7",
+   "apiModel": "zai/glm-4.7",
+   "name": "GLM 4.7",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "zai",
+   "modelId": "glm-4.7-flash",
+   "apiModel": "zai/glm-4.7-flash",
+   "name": "GLM 4.7 Flash",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "zai",
+   "modelId": "glm-5",
+   "apiModel": "zai/glm-5",
+   "name": "GLM 5",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": false
+  },
+  {
+   "provider": "zai",
+   "modelId": "glm-5.2",
+   "apiModel": "zai/glm-5.2",
+   "name": "GLM 5.2",
+   "supportsFast": true,
+   "effortOptions": [
+    "none",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "zai",
+   "modelId": "glm-5.2-fast",
+   "apiModel": "zai/glm-5.2-fast",
+   "name": "GLM 5.2 Fast",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "zai",
+   "modelId": "glm-5.3",
+   "apiModel": "zai/glm-5.3",
+   "name": "GLM 5.3",
+   "supportsFast": true,
+   "effortOptions": [
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "zai",
+   "modelId": "glm-5.3-fast",
+   "apiModel": "zai/glm-5.3-fast",
+   "name": "GLM 5.3 Fast",
+   "supportsFast": false,
+   "effortOptions": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "availableToAdd": true
+  },
+  {
+   "provider": "zai",
+   "modelId": "glm-5.3-flash",
+   "apiModel": "zai/glm-5.3-flash",
+   "name": "GLM 5.3 Flash",
+   "supportsFast": false,
+   "effortOptions": [
+    "low",
+    "high",
+    "max"
+   ],
+   "availableToAdd": true
   }
- ]
+ ],
+ "source": "v0.app/api/v2/internal/gateway-models",
+ "fetchedAt": "2026-11-22"
 }
