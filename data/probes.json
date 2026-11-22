@@ -1,0 +1,53 @@
+{
+ "probes": [
+  {
+   "id": "T3D-01",
+   "title": "模块化温室 / 层级与动画",
+   "language": "en",
+   "purpose": "Scene hierarchy, primitive assembly, transform conventions, render loop and resize handling.",
+   "prompt": "Create one self-contained HTML file using three.js from a CDN only. Build a small low-poly kinetic greenhouse entirely from built-in THREE geometries: a glass house frame, six planter boxes, a central wind spinner, and three floating seed pods. Use no external models, images, textures, fonts, or modules other than three.js and OrbitControls. Assemble named parts with Groups, use physically based materials and at least two light types, add a gentle idle animation with distinct motion for the spinner and pods, support drag rotate and zoom, handle resize, and make the file work when opened by double-click. Put all HTML, CSS, and JavaScript in the single file."
+  },
+  {
+   "id": "T3D-02",
+   "title": "深海观测器 / 程序化形体与灯光",
+   "language": "en",
+   "purpose": "Geometry selection, material defaults, helper usage, procedural placement and code organization.",
+   "prompt": "Deliver a single double-clickable HTML file that uses only a three.js CDN plus OrbitControls. Create a stylized deep-sea observation drone from primitive geometries in code: a pressure hull, three articulated sensor arms, a ring of eight portholes, two spotlights, and a seabed made from repeated rocks. Do not load any external model, image, texture, shader file, font, or data file. Use an orthographic/perspective camera choice you justify in code comments, animate a slow patrol and light pulse, provide mouse/touch rotate and zoom, and include a responsive resize handler. Keep the entire implementation in one HTML file."
+  },
+  {
+   "id": "T3D-03",
+   "title": "等距工厂单元 / 交互与状态",
+   "language": "en",
+   "purpose": "Event architecture, raycasting, DOM/three.js split, state naming, and procedural factory functions.",
+   "prompt": "Write one self-contained HTML file with three.js loaded from a CDN and no other external dependency. Make an isometric mini factory scene using only built-in geometries: a conveyor, four color-coded crates, a robotic picker built from boxes and cylinders, and a status panel rendered with ordinary HTML/CSS. Add OrbitControls rotate/zoom, hover highlighting through raycasting, click a crate to select it and update the status panel, an idle conveyor animation, shadows, lights, and a resize handler. No external assets, textures, images, models, fonts, or downloaded files. It must run directly on double-click."
+  },
+  {
+   "id": "T3D-04",
+   "title": "天文仪器 / 约束与数学运动",
+   "language": "en",
+   "purpose": "Math/style fingerprints in parametric motion, grouping, camera setup, and renderer configuration.",
+   "prompt": "Generate a single-file three.js HTML artifact that runs on double-click and imports only three.js and OrbitControls from CDN. Construct a tabletop mechanical orrery entirely from primitive geometries: a brass base, three orbit rings, a sun, two planets, a moon, labels made with CSS only, and a toggle button for pause/resume. Implement nested orbital motion with explicit time-based equations, drag rotate and zoom, antialiasing, pixel-ratio handling, resize handling, and a calm dark background. Do not use external models, textures, images, fonts, SVG files, shaders, or any other package."
+  },
+  {
+   "id": "T3D-05",
+   "title": "直接聊天温室 / 层级与动画",
+   "language": "en",
+   "purpose": "Direct-chat discipline plus scene hierarchy, primitive assembly, renderer choices, materials, lights, animation and resize structure.",
+   "prompt": "Return only one fenced `html` code block directly in this chat. Do not create a v0 Preview, artifact, attachment, link, download, or prose outside the code block. Build one complete single-file HTML document using Three.js as an ES module from a CDN. Create a small low-poly kinetic greenhouse entirely from built-in geometries: glass-frame house, six planter boxes, a central wind spinner, and three floating seed pods. Use Groups with meaningful names, physically based materials, at least two light types, a gentle idle animation with distinct spinner and pod motion, device-pixel-ratio clamping, and resize handling. Do not use external models, images, textures, fonts, shaders, fetch/XHR, WebSocket, user input, or extra files."
+  },
+  {
+   "id": "T3D-06",
+   "title": "直接聊天深海观测器 / 程序化形体与灯光",
+   "language": "en",
+   "purpose": "Direct-chat discipline plus geometry selection, procedural placement, lighting, camera organization and code decomposition.",
+   "prompt": "Return only one fenced `html` code block directly in this chat. Do not create a v0 Preview, artifact, attachment, link, download, or prose outside the code block. Build one complete single-file HTML document using Three.js as an ES module from a CDN. Create a stylized deep-sea observation drone entirely from built-in geometries: a pressure hull, three articulated sensor arms, a ring of eight portholes, two spotlights, and a seabed made from repeated rocks. Include a perspective camera, physically based materials, shadows where appropriate, a slow patrol and light-pulse animation, device-pixel-ratio clamping, and resize handling. Do not use external models, images, textures, fonts, shaders, fetch/XHR, WebSocket, user input, or extra files."
+  },
+  {
+   "id": "T3D-07",
+   "title": "直接聊天等距工厂 / 交互与状态",
+   "language": "en",
+   "purpose": "Direct-chat discipline plus event architecture, raycasting, DOM/three.js split, state naming and procedural factory construction.",
+   "prompt": "Return only one fenced `html` code block directly in this chat. Your first line must be ```html and your final line must be ```; do not output analysis, planning, thinking, an incomplete draft, or any prose outside that block. Do not create a v0 Preview, artifact, attachment, link, or download. Build one complete single-file HTML document using Three.js as an ES module from a CDN. Make an isometric mini factory from built-in geometries only: a conveyor, four color-coded crates, a box-and-cylinder robotic picker, and a status panel in ordinary HTML/CSS. Add raycast hover highlighting and click-to-select a crate with a status update, plus idle conveyor animation, shadows, lights, device-pixel-ratio clamping, and resize handling. Do not use external models, images, textures, fonts, shaders, fetch/XHR, WebSocket, or extra files."
+  }
+ ]
+}
